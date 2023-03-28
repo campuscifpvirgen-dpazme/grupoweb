@@ -1,0 +1,93 @@
+/* Estilo de cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Estilo de cabecera */
+  .cabecera {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  }
+  
+  /* Estilo de enlaces */
+  .enlaces {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+  
+  .enlaces li {
+  margin-right: 20px;
+  }
+  
+  .enlaces li:last-child {
+  margin-right: 0;
+  }
+  
+  .enlaces a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  }
+  
+  /* Estilo de cuerpo principal */
+  .cuerpo {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  }
+  
+  /* Estilo de sección */
+  section {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 50px;
+  }
+  
+  /* Estilo de enlaces de sección */
+  .enlace {
+  display: block;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+  text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .enlace:hover {
+  background-color: #e0e0e0;
+  }
+  
+  /* Estilo de sección de redes sociales */
+  .redes-sociales {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  }
+  
+  /* Estilo de iconos de redes sociales */
+  .iconos {
+  display: flex;
+  margin-top: 20px;
+  }
+  
+  .iconos img {
+  width: 50px;
+    margin-right: 20px;
+  }
+  
+  /* Estilo de pie de página */
+  .pie-pagina {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  }
